@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    background: lightblue;
+    font-family: 'Play', sans-serif;
+}
+
+code{
+    font-family: monospace;
+    color: red;
+}
+
+.second-code{
+    color: green;
+}
+
+li{
+    font-family: inherit;
+}
+
+ol>li{
+    background: black;
+    color: white;
+}

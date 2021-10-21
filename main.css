@@ -1,0 +1,47 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#product-overview{
+    background: #ff1b68;
+}
+
+.section-title{
+    color: #2ddf5c;
+}
+
+#product-overview h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* COMBINATORS
+
+Adjacent sibling 
+h2 + p{
+    se aplica un estilo solo a los p que esten
+    imediatamente despues que los h2
+}
+
+General sibling 
+h2 ~ p{
+    se aplica a todos los p que esten en el mismo nivel
+    que los h2
+}
+
+child
+div > p{
+    se aplica a todos los p dentro de un div, excepto
+    si se encuentran dentro de otro elemento, solo a los 
+    child directos
+}
+
+descendant
+
+div p{
+    todos los p dentro de un div, no importa 
+    que esten dentro de otros elementos
+} */
+
+
+
+
