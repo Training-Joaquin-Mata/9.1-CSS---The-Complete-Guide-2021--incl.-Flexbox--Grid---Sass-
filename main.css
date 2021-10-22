@@ -1,8 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
+
 #product-overview{
-    background: #ff1b68;
+    background:url("./freedom.jpg");
+    padding: 10px;
+    /* border: 5px black solid;
+    margin: 10px; */
+    width: 100%;
+    height: 528px;
+
 }
 
 .section-title{
@@ -14,34 +26,73 @@ body{
     font-family: 'Anton', sans-serif;
 }
 
-/* COMBINATORS
-
-Adjacent sibling 
-h2 + p{
-    se aplica un estilo solo a los p que esten
-    imediatamente despues que los h2
+.main-header{
+    background-color: #2ddf5c;
+    width: 100%;
+    padding: 8px 16px;
 }
 
-General sibling 
-h2 ~ p{
-    se aplica a todos los p que esten en el mismo nivel
-    que los h2
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
 }
 
-child
-div > p{
-    se aplica a todos los p dentro de un div, excepto
-    si se encuentran dentro de otro elemento, solo a los 
-    child directos
+.main-header__brand{
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
 }
 
-descendant
+.main-nav{
+    
+    display: inline-block; 
+    text-align: right; 
+    width: calc(100% - 75px); 
+    vertical-align: middle;
+    
+}
 
-div p{
-    todos los p dentro de un div, no importa 
-    que esten dentro de otros elementos
-} */
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+} 
 
+.main-nav__item{
+    display: inline-block;
+    margin: 0px 16px;  
+    
+} 
+
+.main-nav__items a {
+    color: #0e4f1f;
+    text-decoration: none; 
+    font-weight: bold;
+    padding: 3px 0;
+    
+}
+
+.main-nav__items a:hover,
+.main-nav__items a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a{
+    color: white;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color:red;
+    background-color: white;
+    border: none;
+}
 
 
 
