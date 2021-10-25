@@ -1,98 +1,32 @@
-*{
-    box-sizing: border-box;
+body {
+    font-family: sans-serif;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+nav {
+    margin-bottom: 16px;
+    background: #fa923f;
+    padding: 8px 0;
 }
 
-#product-overview{
-    background:url("./freedom.jpg");
-    padding: 10px;
-    /* border: 5px black solid;
-    margin: 10px; */
-    width: 100%;
-    height: 528px;
-
-}
-
-.section-title{
-    color: #2ddf5c;
-}
-
-#product-overview h1{
-    color: white;
-    font-family: 'Anton', sans-serif;
-}
-
-.main-header{
-    background-color: #2ddf5c;
-    width: 100%;
-    padding: 8px 16px;
-}
-
-.main-header > div{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.main-header__brand{
-    color: #0e4f1f;
+a {
     text-decoration: none;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.main-nav{
-    
-    display: inline-block; 
-    text-align: right; 
-    width: calc(100% - 75px); 
-    vertical-align: middle;
-    
-}
-
-.main-nav__items{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    
-} 
-
-.main-nav__item{
-    display: inline-block;
-    margin: 0px 16px;  
-    
-} 
-
-.main-nav__items a {
-    color: #0e4f1f;
-    text-decoration: none; 
-    font-weight: bold;
-    padding: 3px 0;
-    
-}
-
-.main-nav__items a:hover,
-.main-nav__items a:active {
     color: white;
-    border-bottom: 5px solid white;
+    margin: 10px;
 }
 
-.main-nav__item--cta a{
-    color: white;
-    background-color: #ff1b68;
-    padding: 8px 16px;
-    border-radius: 8px;
+a.active{
+    color: #521751;
+}
+a:not(.active){
+    color: blue;
 }
 
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active{
-    color:red;
-    background-color: white;
-    border: none;
+.main-section {
+    height: 800px;
+    border: 1px solid #ccc;
+    padding: 16px;
 }
 
-
-
+.highlighted{
+    border: 2px solid #fa923f;
+}
