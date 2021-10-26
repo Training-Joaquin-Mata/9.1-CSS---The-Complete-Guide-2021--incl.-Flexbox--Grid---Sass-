@@ -1,0 +1,47 @@
+main{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: -40px;
+}
+
+.plan_section {
+    padding: 8px;
+    margin: 5px;
+    font-style: none;
+    background: lightgrey;
+    border-radius: 5px;
+    text-align: center; 
+    width: 80%; 
+    margin: 8px auto;
+    border: 4px solid steelblue;
+}
+
+.plan_section a:hover,
+.plan_section a:active{
+    color: gray;
+}
+
+.plan_section a{
+    color:steelblue;
+    text-decoration: none;
+    display: block;
+}
+
+.plan_plus{
+    background-color: steelblue;
+}
+.plan_plus a{
+    color: whitesmoke;
+}
+.plan_plus a:hover,
+.plan_plusa:active{
+    color: lightskyblue;
+}
+
+.plan_section p{
+   border: 4px solid gray;
+   padding: 16px;
+   font-size: 20px;
+   color: black;
+    
+}
