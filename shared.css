@@ -3,139 +3,16 @@
 }
 
 body {
-    /* font-family: 'Montserrat', sans-serif; */
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-#product-overview {
-    background: url("freedom.jpg");
-    width: 100%;
-    height: 528px;
-    padding: 10px;   
-}
-
-.section-title {
-    color: steelblue;
-    text-align: center;
-}
-
-#product-overview h1 {
-    color: white;
-    font-family: 'Anton', sans-serif;
-}
-
-.plan{
-    background-color: lightblue;
-    text-align: center;
-    padding: 16px;
-    margin: 8px;
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
-    border-radius: 10px;
-}
-
-.plan__anotation{
-    background-color: lightcyan;
-    color: steelblue;
-    border-radius: 10px;
-    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-    padding: 5px;
-}
-
-.plan__highlighted{
-    border-radius: 10px;
-    background-color: skyblue;
-    color: whitesmoke;
-    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
-
-.plan_features{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul.plan_features li{
-margin: 5px 0px;
-}
-
-.plan__title{
-    color:steelblue;
-}
-.plan__price{
-    color: slategray;
-}
-
-.plan__highlighted .plan__price{
-    color:rgba(37, 56, 231, 0.534)
-}
-.button{
-    background-color: steelblue;
-    color: whitesmoke;
-    font: inherit;
-    border: 1px solid slategrey;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor:pointer;
-}
-
-.button:hover,
-.button:active{
-    background-color: slategrey;
-    color: whitesmoke;
-}
-.button:focus{
-    outline: none;
-}
-
-#key_features{
-    background-color: slategray;
-    margin-top: 80px;
-    padding: 16px;
-}
-
-#key_features .section-title{
-    color: white;
-    margin: 20px;
-}
-
-.key-features-list{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.key-features-element{
-    display: inline-block;
-    width: 30%;
-
-}
-
-.key-features-description{
-    text-align: center;
-    font-weight: bold;
-    color: whitesmoke;
-    font-size: 20px;
-}
-
-.key-feature--image{
-    background: rgb(20, 154, 231);
-    border-radius: 50%;
-    border: 2px solid gray;
-    width: 128px;
-    height: 128px;
-    margin: auto;
-}
-/* h1 {
-    font-family: sans-serif;
-} */
 
 .main-header {
     width: 100%;
     background: steelblue;
     padding: 8px 16px;
+    position: fixed;
+    box-sizing: border-box;
 }
 
 .main-header > div {
