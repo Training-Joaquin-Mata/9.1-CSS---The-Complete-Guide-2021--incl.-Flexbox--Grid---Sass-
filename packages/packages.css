@@ -2,7 +2,7 @@ main{
     margin: 0px;
     padding: 0px;
     margin-bottom: 0px;
-    margin-top: 90px;
+    margin-top: 5.625rem;
 }
 
 .main-header{
@@ -11,7 +11,9 @@ main{
 }
 
 .background{
-    background: url(../images/plans-background.jpg);
+    background: url(../images/plans-background.jpg) center/cover;
+    filter: grayscale(40%);
+    filter:blur(2px);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -20,14 +22,14 @@ main{
   }
 
 .plan_section {
-    padding: 8px ;
-    margin: 5px;
+    padding: .5rem ;
+    margin: 0.325rem;
     font-style: none;
     background: lightgrey;
-    border-radius: 5px;
+    border-radius: 0.325rem;
     text-align: center; 
     width: 80%; 
-    margin: 8px auto;
+    margin: .5rem auto;
     border: 4px solid steelblue;
     position: relative;
     z-index: 0;
@@ -44,32 +46,46 @@ main{
     display: block;
 }
 
-.plan_plus{
+.plan_free{
     background-color: steelblue;
 }
-.plan_plus a{
+
+.plan_free a{
     color: whitesmoke;
 }
-.plan_plus a:hover,
-.plan_plusa:active{
+.plan_free{
+    border: 4px solid slategray;
+    border-radius: 5px;
+}
+.plan_free a:hover,
+.plan_free a:active{
     color: lightskyblue;
 }
 
 .plan_section p{
    border: 4px solid gray;
-   padding: 16px;
-   font-size: 20px;
+   border-radius: 5px;
+   padding: 1rem;
+   font-size: 1.25rem;
    color: black;
     
+}
+
+.plan_free p{
+    border: 4px solid lightskyblue;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: black;  
 }
 
 .package_badge{
     position: absolute;
     top: 0px;
     right:0px;
-    font-size: 15px;
+    font-size: 1rem;
     color: whitesmoke;
-    padding: 10px;
+    padding: 0.625rem;
     background: steelblue;
 }
 

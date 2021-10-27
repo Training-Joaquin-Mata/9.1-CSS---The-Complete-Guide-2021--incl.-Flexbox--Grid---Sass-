@@ -8,12 +8,25 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.main-header{
+    z-index: 3;
+}
+main{
+    padding-top: 40px;
+}
+
 #product-overview {
-    /* background: url("freedom.jpg"); */
-    background-image: url("freedom.jpg");
-    width: 100%;
-    height: 528px;
-    padding: 10px;   
+    background: url("./images/freedom.jpg") gray left 10% bottom 70%/ cover no-repeat border-box;
+    /* background-image: url("./images/freedom.jpg");
+    background-size: cover;
+    background-position: left 10% bottom 20%;
+    background-origin: border-box;
+    background-clip: border-box; */
+    /* background-image: linear-gradient(to right, red, blue); */
+    width: 100vw;
+    height: 50vh;
+    padding: .625rem; 
+    position: relative;
 }
 
 .section-title {
@@ -24,6 +37,10 @@ body {
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    
 }
 .plan-list{
     width: 80%;
@@ -133,97 +150,5 @@ margin: 5px 0px;
     width: 128px;
     height: 128px;
     margin: auto;
+    padding:20px;
 }
-/* h1 {
-    font-family: sans-serif;
-} */
-
-.main-header {
-    width: 100%;
-    background: steelblue;
-    padding: 8px 16px;
-}
-
-.main-header > div {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.main-header__brand {
-    color: whitesmoke;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 74px);
-    vertical-align: middle;
-}
-
-.main-nav__items {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.main-nav__item {
-    display: inline-block;
-    margin: 0 16px;
-}
-
-.main-nav__item a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-weight: bold;
-    padding: 3px 0;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
-    color: white;
-    border-bottom: 5px solid white;
-}
-
-.main-nav__item--cta a {
-    color: white;
-    background: gray;
-    padding: 8px 16px;
-    border-radius: 8px;
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-    color: steelblue;
-    background: white;
-    border: none;
-}
-
-.main-footer{
-    background: rgba(0, 0, 0, 0.75);
-    padding: 32px;
-    margin-top: 48px;
-}
-
-.main-footer-links{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.main-footer-link{
-    display: inline-block;
-    margin: 0px 16px;
-}
-
-.main-footer-link a{
-    color: whitesmoke;
-    text-decoration: none;
-}
-.main-footer-link a:hover,
-.main-footer-link a:hover{
-    color: lightgray;
-}
-
